@@ -1,0 +1,150 @@
+/* PAGE CENTER */
+.register-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; 
+  align-items: center;
+  background: #f4f6fb;
+  font-family: "Inter", sans-serif;
+
+}
+
+/* MAIN CARD */
+.register-card {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  margin: auto;
+ 
+  overflow: hidden;
+
+  box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+
+
+
+}
+
+/* LEFT SIDE */
+.left {
+  flex: 1;
+  background: linear-gradient(135deg, #586070, #0f172a);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.left-content {
+  max-width: 300px;
+}
+
+.left h1,h2{
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 3px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.left p {
+  opacity: 0.9;
+}
+
+/* RIGHT SIDE */
+.right {
+  flex: 1;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FORM */
+.form-box {
+  width: 100%;
+  max-width: 350px;
+}
+
+.form-box h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color:#586070;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* INPUT */
+.custom-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+
+  border: 1px solid #e5e7eb;
+  padding: 0 15px;
+
+ 
+}
+
+.custom-input:focus {
+  border-color: #586070;
+  box-shadow: 0 0 0 3px rgba(124,92,255,0.2);
+  outline: none;
+}
+
+/* BUTTON */
+.btn-gradient {
+  width: 100%;
+  height: 40px;
+ 
+  border: none;
+  color: white;
+  font-weight: 600;
+
+  background: linear-gradient(135deg, #586070, #0f172a);
+  margin-top: 10px;
+}
+
+.btn-gradient:hover {
+  transform: translateY(-2px);
+}
+
+/* LINK */
+.login-link {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 16px;
+  color:#586070;
+}
+
+.login-link a {
+
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #586070;
+  padding: 1px;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 4px;
+
+ 
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .register-card {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left {
+    height: 200px;
+  }
+}
