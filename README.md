@@ -1,1 +1,1 @@
-# DjangoProject
+# FullStack Project
